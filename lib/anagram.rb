@@ -7,15 +7,13 @@ class Anagram
     @words = words
   end
 
-  def match(arr)
+  def match(word)
   #  binding.pry
   #arr.sort.each do |word|
   #  word.split(",")
-  new_arr =   words.keep_if { |word| words.split("").sort str.split}
-  #    puts word
-  if new_arr.include?(word)
-    puts word
-  #  m = (/1/).match(word)
+  word.keep_if { |w| words.split("").sort str.split ('')}
+  
+
   #  if m == @word
   #    puts m
 end
