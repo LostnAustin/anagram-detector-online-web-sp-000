@@ -12,9 +12,5 @@ class Anagram
   word.keep_if { |w|  w.split('').sort == words.split("").sort }
 #keep instance word if (iterate over individual words and split letters, then sort)
 # is equal to (instance words split, and sorted)
-
-  #  if m == @word
-  #    puts m
-
   end
 end
