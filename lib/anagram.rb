@@ -11,7 +11,7 @@ class Anagram
   #  binding.pry
   arr.sort.each do |word|
     word.split("")
-    if word == @words
+    if words.include?(word)
       puts word
 
   #  m = (/1/).match(word)
