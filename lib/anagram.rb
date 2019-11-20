@@ -11,7 +11,7 @@ class Anagram
   #  binding.pry
   #arr.sort.each do |word|
   #  word.split(",")
-  word.keep_if { |w| words.split("").sort == str.split ('')}
+  word.keep_if { |w| words.split("").sort == str.split('')}
 
 
   #  if m == @word
