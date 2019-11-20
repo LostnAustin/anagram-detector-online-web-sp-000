@@ -18,6 +18,5 @@ class Anagram
   #  if m == @word
   #    puts m
 
-    end
   end
 end
