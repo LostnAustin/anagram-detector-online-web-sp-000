@@ -10,7 +10,7 @@ class Anagram
   def match
   #  binding.pry
   @words.sort.each do |word|
-    word.split("")
+    word.split(" ")
     if word == @words
       puts word
 
