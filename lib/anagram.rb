@@ -11,12 +11,13 @@ class Anagram
   #  binding.pry
   #arr.sort.each do |word|
   #  word.split(",")
-     words.keep_if { |word| words.sort.split("")}
+  new_arr =   words.keep_if { |word| words.split("").sort str.split}
   #    puts word
-
+  if new_arr.include?(word)
+    puts word
   #  m = (/1/).match(word)
   #  if m == @word
   #    puts m
-
+end
   end
 end
